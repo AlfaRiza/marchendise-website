@@ -11,11 +11,97 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@200;400&family=Pacifico&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <div class="container">
-          
-      </div>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Sarungan Merch Shop</h2>
+          <p class="sub-heading">Segala jenis sarung</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IRD 100k</h4>
+          <p class="item">Sarung Biasa (Sarung bapack-bapack)</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 200k</h4>
+          <p class="item">Sarung Modern (Sobat Gurun)</p>
+        </div>
+      </header>
+      <!-- Nav -->
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" name="" id="" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Sarungan Merch</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"><i class="fab fa-servicestack"></i></div>
+          <h3>Berkualitas</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, libero odio. Iure officiis dolorem, facilis assumenda repudiandae minima voluptates veniam suscipit vel ipsum facere molestiae perspiciatis odio repellat unde consequatur.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fas fa-tags"></i></div>
+          <h3>Harga Terjangkau</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, libero odio. Iure officiis dolorem, facilis assumenda repudiandae minima voluptates veniam suscipit vel ipsum facere molestiae perspiciatis odio repellat unde consequatur.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fas fa-trademark"></i></div>
+          <h3>Nyaman dipakai</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, libero odio. Iure officiis dolorem, facilis assumenda repudiandae minima voluptates veniam suscipit vel ipsum facere molestiae perspiciatis odio repellat unde consequatur.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fas fa-universal-access"></i></div>
+          <h3>Pengiriman seluruh indonesia</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, libero odio. Iure officiis dolorem, facilis assumenda repudiandae minima voluptates veniam suscipit vel ipsum facere molestiae perspiciatis odio repellat unde consequatur.
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+        <img src="https://source.unsplash.com/random/200x200" alt="">
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
   </body>
 </html>
